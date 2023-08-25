@@ -1,0 +1,270 @@
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Charm', cursive;
+
+ 
+
+ 
+}
+
+  @import url('https://fonts.googleapis.com/css2?family=Prompt:wght@300&display=swap');
+
+img{
+  height: 55px;
+ 
+  margin-right: 600px;
+  margin-left: 100px;
+}
+.navbar{
+  display: flex;
+  color: white;
+  background-color: black;
+  align-items: center;
+  
+  height: 80px;
+  position: relative;
+  
+}
+.right a{
+  color: white;
+  text-decoration: none;
+  padding: 0 20px;
+  
+}
+.right a:hover{
+  cursor: pointer;
+  color: rgb(206, 195, 195);
+
+}
+#rebtn{
+color: white;
+background-color: black;
+position: absolute;
+right: 20px;
+cursor: pointer;
+
+
+}
+#rebtn2{
+  color: white;
+  background-color: black;
+  cursor: pointer;
+  
+
+}
+.boxes{
+  
+  height: 600px;
+  width: 1264px;
+
+  background-image: url(Assets/pizza.jpeg);
+  background-size:cover ;
+}
+
+.box h1{
+  padding-top: 190px;
+  margin-left: 20px;
+  font-size: 50px;
+}
+.box p {
+  padding-top: 10px;
+  margin-left: 20px;
+  font-size: 25px;
+}
+#ordbtn{
+  color: white;
+  background-color: black;
+  height: 38px;
+  width: 95px;
+  margin-top: 20px;
+  margin-left: 18px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: medium;
+}
+#ordbtn:hover{
+  background-color: rgb(46, 41, 41);
+}
+.footer{
+  height: 200px;
+  width: 1264;
+  background-color:black;
+  color: white;
+}
+.social{
+  margin-left: 445px;
+}
+
+.social svg{
+margin: 40px 20px;
+  font-size: 50px;
+}
+.social svg:hover{
+  cursor: pointer;
+  box-shadow: 0px 5px 0px white;
+}
+.footer p{
+  text-align: center;
+}
+.cleft{
+  height: 600px;
+  width: 50%;
+  background-image: url(Assets/multiplePizzas.jpeg);
+  background-size: cover;
+
+}
+.cbox{
+  display: flex;
+}
+.cright{
+  font-size: large;
+  border: 2px solid black;
+  height: 600px;
+  width: 50%;
+
+
+
+}
+.opbox{
+ 
+text-align: center;
+padding-top:120px;
+
+height: 100%;
+
+ 
+}
+.name{
+  margin: 20px;
+  border-radius: 5px;
+}
+.email{
+  margin: 20px;
+  border-radius: 5px;
+}
+.phone{
+  margin: 20px;
+  border-radius: 5px;
+  
+}
+#sub-btn{
+  margin-top: 38px;
+  height: 30px;
+  width: 71px;
+  border-radius: 3px;
+  border: none;
+  box-shadow: 0px 0px 2px grey;
+  color: white;
+  cursor: pointer;
+  background-color:blue
+
+}
+#inpt{
+  height: 40px;
+  border-radius: 5px;
+  border: none;
+  box-shadow: 0px 0px 2px grey;
+}
+#lab{
+  margin-left: -13px;
+  
+}
+.input{
+  border: none;
+  box-shadow: 0px 0px 2px grey;
+
+}
+.about{
+  height: 300px;
+  background-image: url(Assets/pizzaLeft.jpg);
+  background-size:cover;
+ 
+}
+.para{
+  padding: 40px 50px;
+  text-align: center;
+  font-size: smaller;
+}
+.hd h1{
+  padding: 20px ;
+  text-align: center;
+  font-size: 60px;
+}
+.menu-title h1{
+  text-decoration: underline;
+  text-align: center;
+  margin-left: 70px;
+}
+.menuList{
+  display: flex;
+  height: auto;
+
+}
+
+.mleft{
+  background-image: url(./Assets/pepperoni.jpg);
+height: 136px;
+    width: 237px;
+    background-size: contain;
+    margin: 38px;
+    margin-left: 166px;
+    background-repeat: no-repeat;
+  
+}
+.mright p{
+  padding-top: 65px;
+  margin-right: 11px;
+  text-align: center;
+ 
+}
+.menuList2{
+  display: flex;
+  height: auto;
+}
+.menuList3{
+  display: flex;
+  height: auto;
+}
+.mleft2{
+  background-image: url(./Assets/pineapple.jpg);
+
+  
+}
+.mleft3{
+  background-image: url(./Assets/special.jpg);
+
+  
+}
+.h3t{
+
+  float: right;
+  margin: 61px;
+
+}
+.buybtn{
+  float: right;
+  margin-top: 104px;
+  margin-right: -113px;
+  height: 26px;
+  width: 48px;
+  border-radius: 2px;
+  border: none;
+  box-shadow: 0px 0px 2px grey;
+  cursor: pointer;
+  background-color: blue;
+  color: white;
+}
+#thanks{
+  text-align: center;
+  height: 69vh;
+  width: 100%;
+  padding-top: 124px;
+  font-size: 80px;
+  color: white;
+  background: linear-gradient(blue,black);
+}
+
+
